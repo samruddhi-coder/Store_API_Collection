@@ -1,0 +1,1415 @@
+{
+	"info": {
+		"_postman_id": "0b5039c0-020c-42e2-934b-59e5df5cdbc7",
+		"name": "StoreAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22575539"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"test122\",\r\n    \"email\": \"test122@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2300/api/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"swetu\",\r\n    \"email\": \"swetdu@gms.com\",\r\n    \"password\": \"142442\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "217"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d9-79geM4ClheEsKggVrRGOyDHuspU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Feb 2025 17:45:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User created succesfully\",\n    \"success\": true,\n    \"data\": {\n        \"name\": \"swetu\",\n        \"email\": \"swetdu@gms.com\",\n        \"password\": \"$2b$13$acHDA13sfJIePht7Y8FIH.iDUztqmjUgoM8Vvor2pKhN57K/36tcW\",\n        \"_id\": \"67b76a32c6fb6d924cfce4fb\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"swetu\",\r\n    \"email\": \"swetdu@gms.com\",\r\n    \"password\": \"142442\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"register"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "56"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"38-IzyRNupLiVrcBKHUWHEbr2I55mw\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Feb 2025 17:45:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User with same email exist\",\n    \"success\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "Register Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"jio life\",\r\n    \"email\": \"jio11@gms.com\",\r\n    \"password\": \"1q25\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://store-api-q486.onrender.com/api/user/register",
+					"protocol": "https",
+					"host": [
+						"store-api-q486",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"swetu\",\r\n    \"email\": \"swetdu@gms.com\",\r\n    \"password\": \"142442\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "217"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d9-79geM4ClheEsKggVrRGOyDHuspU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Feb 2025 17:45:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User created succesfully\",\n    \"success\": true,\n    \"data\": {\n        \"name\": \"swetu\",\n        \"email\": \"swetdu@gms.com\",\n        \"password\": \"$2b$13$acHDA13sfJIePht7Y8FIH.iDUztqmjUgoM8Vvor2pKhN57K/36tcW\",\n        \"_id\": \"67b76a32c6fb6d924cfce4fb\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"swetu\",\r\n    \"email\": \"swetdu@gms.com\",\r\n    \"password\": \"142442\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"register"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "56"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"38-IzyRNupLiVrcBKHUWHEbr2I55mw\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Feb 2025 17:45:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User with same email exist\",\n    \"success\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test122@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2300/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"geet@gms.com\",\r\n    \"password\": \"1525\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"30-YWnJv4whIcBP4UtXU+0I+Ef5G4o\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 18:41:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Incorrect password\",\n    \"success\": false\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"geet@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29-ne/+aAMIOFbz6CHzXBaYIq8SrfM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 18:45:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Welcome geet\",\n    \"success\": true\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"gee44t@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "44"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2c-dpnLDYGB8SyEeMRU58WlgOiBe4o\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 18:45:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User not found\",\n    \"success\": false\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"geet@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "228"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e4-boXH4iQIDq+/Yzcy+I7uBPAc4JI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 20:27:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Welcome geet\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2I3N2JmOWIzMmRiZTU2OTA2ZGI4OTkiLCJpYXQiOjE3NDAxNjk2MjEsImV4cCI6MTc0MDI1NjAyMX0.ujJqVN40blfvs4Zr4lZbRH27SN9P2lExC7NRN2Zf_oQ\",\n    \"success\": true\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test122@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "231"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e7-8//qwh3d3VD3ZzE8Uq1HkrQg8NM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Mar 2025 11:42:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Welcome test122\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2MyZjFmNDlkNDkyYjAxNGY3OGNmNGUiLCJpYXQiOjE3NDA4MjkzNjcsImV4cCI6MTc0MDkxNTc2N30.LCDzXu1Nz4Ws_jOPFTHBclhQwabdpuYwJTNgClwW9ac\",\n    \"success\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Login Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"jio11@gms.com\",\r\n    \"password\": \"1q25\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2300/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"geet@gms.com\",\r\n    \"password\": \"1525\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"30-YWnJv4whIcBP4UtXU+0I+Ef5G4o\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 18:41:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Incorrect password\",\n    \"success\": false\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"geet@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29-ne/+aAMIOFbz6CHzXBaYIq8SrfM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 18:45:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Welcome geet\",\n    \"success\": true\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"gee44t@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "44"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2c-dpnLDYGB8SyEeMRU58WlgOiBe4o\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 18:45:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User not found\",\n    \"success\": false\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"geet@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "228"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e4-boXH4iQIDq+/Yzcy+I7uBPAc4JI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 20:27:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Welcome geet\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2I3N2JmOWIzMmRiZTU2OTA2ZGI4OTkiLCJpYXQiOjE3NDAxNjk2MjEsImV4cCI6MTc0MDI1NjAyMX0.ujJqVN40blfvs4Zr4lZbRH27SN9P2lExC7NRN2Zf_oQ\",\n    \"success\": true\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test122@gms.com\",\r\n    \"password\": \"125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "231"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e7-8//qwh3d3VD3ZzE8Uq1HkrQg8NM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Mar 2025 11:42:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Welcome test122\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2MyZjFmNDlkNDkyYjAxNGY3OGNmNGUiLCJpYXQiOjE3NDA4MjkzNjcsImV4cCI6MTc0MDkxNTc2N30.LCDzXu1Nz4Ws_jOPFTHBclhQwabdpuYwJTNgClwW9ac\",\n    \"success\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "New Store",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authentication-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2M2MDBiZGY0ZjFiMjE5M2M2NzMzNzIiLCJpYXQiOjE3NDEwMjk2MzAsImV4cCI6MTc0MTExNjAzMH0.neNbsvEEXI8K6wD6QYIYK_oK_0TKw_AO69sSyaKjMrs",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"store_name\": \"store12\",\r\n    \"store_email\": \"store12@gms.com\",\r\n    \"store_phone\":\"19707\",\r\n    \"store_no\":\"3122\",\r\n    \"store_brand\":\"tacobell\",\r\n    \"store_address\":\"ring road\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2300/api/store/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"store",
+						"new"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"juii\",\r\n    \"email\": \"lop22@gms.com\",\r\n    \"phone\":\"2121\",\r\n    \"type\":\"mobile\",\r\n    \"homeaddress\":\"pune\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/contact/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"contact",
+								"new"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "242"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"f2-SU8Gs9qLu3DIPgiphTpCx5Kmfsc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Feb 2025 19:00:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Contact saved successfully\",\n    \"success\": true,\n    \"contactdetails\": {\n        \"name\": \"juii\",\n        \"email\": \"lop22@gms.com\",\n        \"phone\": 2121,\n        \"type\": \"mobile\",\n        \"homeaddress\": \"pune\",\n        \"_id\": \"67bb706b4bd48c22a88cc2fb\",\n        \"createdAt\": \"2025-02-23T19:00:59.477Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "New Store Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authentication-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2M3NDY1ZTg4NDUyODYxODA2MWE0NzkiLCJpYXQiOjE3NDExMTI5OTksImV4cCI6MTc0MTE5OTM5OX0.f_omELDV1YjjeS89mulyYJFkLbsSz9QXNzTNl6orsZs",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"store_name\": \"store1112\",\r\n    \"store_email\": \"store112@gms.com\",\r\n    \"store_phone\":\"197107\",\r\n    \"store_no\":\"124\",\r\n    \"store_brand\":\"Burger king\",\r\n    \"store_address\":\"Kota, ring road-1\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://store-api-q486.onrender.com/api/store/new",
+					"protocol": "https",
+					"host": [
+						"store-api-q486",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"store",
+						"new"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"juii\",\r\n    \"email\": \"lop22@gms.com\",\r\n    \"phone\":\"2121\",\r\n    \"type\":\"mobile\",\r\n    \"homeaddress\":\"pune\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2300/api/contact/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2300",
+							"path": [
+								"api",
+								"contact",
+								"new"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "242"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"f2-SU8Gs9qLu3DIPgiphTpCx5Kmfsc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Feb 2025 19:00:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Contact saved successfully\",\n    \"success\": true,\n    \"contactdetails\": {\n        \"name\": \"juii\",\n        \"email\": \"lop22@gms.com\",\n        \"phone\": 2121,\n        \"type\": \"mobile\",\n        \"homeaddress\": \"pune\",\n        \"_id\": \"67bb706b4bd48c22a88cc2fb\",\n        \"createdAt\": \"2025-02-23T19:00:59.477Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get ALL stores",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://store-api-q486.onrender.com/api/store/all",
+					"protocol": "https",
+					"host": [
+						"store-api-q486",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"store",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get store by ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2300/api/store/67c603062af60eb488fdd3ca",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"store",
+						"67c603062af60eb488fdd3ca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update store",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authentication-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2M2MDBiZGY0ZjFiMjE5M2M2NzMzNzIiLCJpYXQiOjE3NDEwMjk2MzAsImV4cCI6MTc0MTExNjAzMH0.neNbsvEEXI8K6wD6QYIYK_oK_0TKw_AO69sSyaKjMrs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"store_address\":\"road\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2300/api/store/1212",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"store",
+						"1212"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authentication-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2N2M2MDBiZGY0ZjFiMjE5M2M2NzMzNzIiLCJpYXQiOjE3NDEwMjk2MzAsImV4cCI6MTc0MTExNjAzMH0.neNbsvEEXI8K6wD6QYIYK_oK_0TKw_AO69sSyaKjMrs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:2300/api/store/3122",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"store",
+						"3122"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2300/api/contact/new",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authentication_token",
+						"value": "sab",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"juii\",\r\n    \"email\": \"lop22@gms.com\",\r\n    \"phone\":\"2121\",\r\n    \"type\":\"mobile\",\r\n    \"homeaddress\":\"pune\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2300/api/contact/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2300",
+					"path": [
+						"api",
+						"contact",
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
